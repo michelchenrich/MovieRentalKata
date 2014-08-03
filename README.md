@@ -1,14 +1,13 @@
-MovieRentals Kata:
+#MovieRentals Kata
 Build the same business logic in the VideoStore Refactoring example from Martin Fowler's book.
 
 The requirements are the following:
 
-The system must be able to print a rent statement with the following template:
-Rent Statement for <Customer Name>:
-<tab><Movie Title><tab><Days Rented><tab><Owed Amount>
-<repeat for each rented movie>
-Total Owed: <Total Owed>
-Frequent Renter Points: <Frequent Renter Points>
+The system must be able to print a rent statement with the following template:  
+Rent Statement for `Customer Name`:  
+`tab``Movie Title``tab``Days Rented``tab``Owed Amount` \> *repeat for each rented movie*  
+Total Owed: `Total Owed`  
+Frequent Renter Points: `Frequent Renter Points`
 
 Regular movies are charged 2USD for the first two days, and an extra of 1.5USD for every day after the first two.
 
